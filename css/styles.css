@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(226, 226, 226);
+    font-family: 'Ubuntu Mono', monospace;
+
+}
+
+header {
+    width: 100%;
+    height: 25rem;
+    background-color: rgb(151, 59, 236);
+    color: white;
+}
+
+header nav {
+    padding-top: 180px;
+    padding-left: 450px;
+    display: flex;
+    align-items: center;
+}
+
+header nav h1 {
+    font-size: 45px;
+    margin-right: 700px;
+}
+
+header nav a {
+    color: white;
+    padding-left: 100px;
+}
+
+.social-tree {
+    margin-top: -20px;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 352px;
+    height: 480px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.top {
+    padding-top: 17px;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+}
+
+.top .back-img {
+    background-color: aqua;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.desafio-des {
+    width: 90%;
+    padding-top: 20px;
+}
+
+.desafio-des p {
+    padding-top: 10px;
+}
+
+.tecnologia {
+    padding-top: 90px;
+    width: 90%;
+}
+
+.tec-img {
+    display: flex;
+    width: 22px;
+}
+
+.down {
+    display: flex;
+    padding-top: 30px;
+    width: 90%;
+    height: 40px;
+    
+}
+
+.rodape {
+}
+
+.down .rodape a {
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    margin-right: 5px;
+    background-color: rgb(100, 100, 240);
+    color: white;
+    height: 36px;
+    width: 90px;
+    border-radius: 6px;
+}
